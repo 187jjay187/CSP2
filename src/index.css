@@ -21,14 +21,13 @@ body {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    height: 3rem;
-    width: 100%;
-    background-color: #3fc979;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  height: 3rem;
+  width: 100%;
+  background-color: #3fc979;
+}

@@ -24,17 +24,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3FC979;
+  background-color: #00a0cc;
   color: #fff;
 }
 
-/* .logo span {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.7;
-  color:#fff;
-  margin-inline: 2rem;
-} */
 .menunav {
   display: flex;
   justify-content: space-around;

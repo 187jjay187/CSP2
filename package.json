@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/187jjay187/CSP2/issues"
   },
-  "homepage": "https://github.com/187jjay187/CSP2#readme",
+  "homepage": "https:/187jjay187.github.io/CSP2/",
   "devDependencies": {
     "@babel/core": "^7.20.5",
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",

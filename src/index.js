@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import './index.css';
 import getLists from './modules/display.js';
 import getMealItem from './modules/dompopupcard.js';

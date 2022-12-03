@@ -87,6 +87,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
+
+## 🚀 Video Presentatio <a name="Video Presentatio"></a>
+
+- Video Presentatio Link(https://drive.google.com/file/d/11dN9Rxv2av0grRro_B5Ql_pQ-VQWLyls/view?usp=sharing)
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - Live Demo Link([http://localhost:8080/](https://187jjay187.github.io/CSP2/))
@@ -97,6 +102,9 @@ After you're finished please remove all the comments and instructions!
 
 - Team
   - [Jerome](https://github.com/187jjay187) - [Jorge](https://github.com/jorgegoco)
+
+## 🚀 Main GitHub Repo
+https://github.com/187jjay187/CSP2.git
 
 ## 🚀 Pull Request
 

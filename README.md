@@ -91,6 +91,19 @@ After you're finished please remove all the comments and instructions!
 
 - Live Demo Link([http://localhost:8080/](https://187jjay187.github.io/CSP2/))
 
+## 🚀 Project Details
+
+- [Kanban Board](https://github.com/187jjay187/CSP2/projects/1)
+
+- Team
+  - [Jerome](https://github.com/187jjay187) - [Jorge](https://github.com/jorgegoco)
+
+## 🚀 Pull Request
+
+[Jerome](https://github.com/187jjay187/CSP2/pull/24)
+
+[Jorge](https://github.com/187jjay187/CSP2/pull/23)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

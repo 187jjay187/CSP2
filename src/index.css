@@ -339,7 +339,7 @@ section {
   border: 1px solid #3fc979;
 }
 
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1250px) {
   #meals-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -418,4 +418,4 @@ section {
   .popUpCard {
     width: 90%;
   }
-}
+} */

@@ -11,13 +11,9 @@ window.addEventListener('DOMContentLoaded', () => {
   getLists();
   const homeItemCounter = document.querySelector('.item-number');
   const getItemList = async () => {
-    try {
-      const mealLists = await getData();
-      const counterArray = mealLists.categories;
-      homeItemCounter.textContent = itemCounter(counterArray);
-    } catch (error) {
-      console.log(error);
-    }
+    const mealLists = await getData();
+    const counterArray = mealLists.categories;
+    homeItemCounter.textContent = itemCounter(counterArray);
   };
   getItemList();
 });

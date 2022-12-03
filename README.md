@@ -168,6 +168,12 @@ To run the project, execute the following command:
 - Twitter: @twitterhandle(https://twitter.com/187jjay187)
 - LinkedIn: LinkedIn(https://linkedin.com/in/jerome-osman-137605a4)
 
+👤 **Jorge**
+
+- GitHub: @githubhandle(https://github.com/jorgegoco)
+- Twitter: @twitterhandle(https://twitter.com/JorgeGo78017548)
+- LinkedIn: LinkedIn(https://www.linkedin.com/in/jorge-gonz%C3%A1lez-b1a50714b/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

@@ -89,7 +89,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live Demo Link(http://localhost:8080/)
+- Live Demo Link([http://localhost:8080/](https://187jjay187.github.io/CSP2/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

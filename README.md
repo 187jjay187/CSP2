@@ -162,7 +162,7 @@ To run the project, execute the following command:
 
 <!-- AUTHORS -->
 
-👤 **Jerome**
+👤 **Jerome Jay**
 
 - GitHub: @githubhandle(https://github.com/187jjay187)
 - Twitter: @twitterhandle(https://twitter.com/187jjay187)

@@ -14,6 +14,7 @@ html {
 
 body {
   background-color: hsla(120, 100%, 50%, 1);
+
   /* background-image:
     radial-gradient(at 81% 100%, hsla(158, 100%, 93%, 1) 0, transparent 50%),
     radial-gradient(at 43% 0%, hsla(187, 100%, 74%, 1) 0, transparent 50%),

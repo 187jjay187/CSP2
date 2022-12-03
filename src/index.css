@@ -13,9 +13,17 @@ html {
 }
 
 body {
-  background-color: #e7ebe7;
+  background-color: hsla(120, 100%, 50%, 1);
+  background-image:
+    radial-gradient(at 81% 100%, hsla(158, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 43% 0%, hsla(187, 100%, 74%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(146, 100%, 50%, 0.92) 0, transparent 50%),
+    radial-gradient(at 21% 41%, hsla(154, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 74% 35%, hsla(139, 100%, 76%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(311, 100%, 93%, 1) 0, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(142, 100%, 76%, 1) 0, transparent 50%);
   color: rgba(0, 0, 0, 0.7);
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   letter-spacing: 0.04rem;
 }
@@ -24,8 +32,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #00a0cc;
+  background-color: #000;
   color: #fff;
+}
+
+.logo span {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #fff;
+  margin-inline: 2rem;
 }
 
 .menunav {
@@ -41,8 +57,174 @@ header {
 
 .menunav li a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #fff;
+}
+
+.cardBg {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+
+.popUpCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  width: 50rem;
+  height: 90%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 2rem;
+  overflow-y: scroll;
+}
+
+.closeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: flex-end;
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #3fc979;
+}
+
+.cardDiscription {
+  padding: 0 1.5rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+.numberComments {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.comment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.comment-el {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.4rem;
+  gap: 1rem;
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: rgb(0, 0, 0, 0.1);
+  width: 80%;
+  line-height: 1.6rem;
+  margin: 0 auto 1rem auto;
+}
+
+.leaveComment {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.cmtInput {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.cmtInput input {
+  margin: 0 auto;
+  width: 60%;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid green;
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.cmtInput input::placeholder {
+  font-style: oblique;
+}
+
+.cmtInput textarea {
+  margin: 0 auto;
+  width: 60%;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid green;
+  resize: none;
+  font-weight: 300;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.cmtInput textarea::placeholder {
+  font-style: oblique;
+}
+
+.commentButton {
+  margin: 0 auto 1rem auto;
+  width: 25%;
+  height: 3.5rem;
+  border: 1px solid green;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.commentButton:hover {
+  font-size: 1.4rem;
+  border: 2px solid green;
+  width: 26%;
+  height: 3.9rem;
+}
+
+.dateOfComment {
+  min-width: 8rem;
+}
+
+.message {
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.cardImg {
+  margin: 2rem auto;
+}
+
+.item-number {
+  width: 100px;
+  height: 100px;
+  padding: 0.3rem 0.5rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.2rem;
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -52,7 +234,188 @@ footer {
   position: fixed;
   bottom: 0;
   text-align: center;
-  height: 3rem;
+  height: 5rem;
+  font-size: 2rem;
   width: 100%;
-  background-color: #3fc979;
+  background-color: #000;
+  color: white;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 3rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.meal-title-section {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+
+#meals-container {
+  display: grid;
+  margin: 2rem 0 8rem 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.meal-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 36rem;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+  padding: 3rem;
+  transition: 0.4s ease-in;
+}
+
+.meal-card:hover {
+  transform: translateY(-20px);
+}
+
+.meal-title-name {
+  display: flex;
+}
+
+.meal-title {
+  margin: 3rem;
+}
+
+.love-icon {
+  font-size: 2.5rem;
+  background-color: #000;
+  color: #3fc979;
+  width: 50px;
+  height: 50px;
+  padding: 0.4rem 0.7rem;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 21px -12px #3fc979;
+}
+
+.love-icon:hover {
+  background-color: #fff;
+  color: #3fc979;
+}
+
+.love-icon:active {
+  background-color: #3fc979;
+  color: white;
+}
+
+.likes-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#comment-button {
+  background-color: #000;
+  color: #3fc979;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.4s ease-in;
+  outline: 0;
+  border: 0;
+}
+
+#comment-button:hover {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #3fc979;
+}
+
+/* @media screen and (max-width: 1250px) {
+  #meals-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popUpCard {
+    width: 45rem;
+  }
+
+  .commentButton {
+    font-size: 1rem;
+  }
+
+  .commentButton:hover {
+    font-size: 1.1rem;
+  }
+
+  .cardTitle {
+    font-size: 3rem;
+  }
+
+  .numberComments {
+    font-size: 2rem;
+  }
+
+  .leaveComment {
+    font-size: 2rem;
+  }
+
+  .message {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+  }
+
+  .cardImg {
+    width: 70%;
+  }
+
+  .dateOfComment {
+    font-size: 1rem;
+    min-width: 6rem;
+  }
+
+  .nameOfCommenter {
+    font-size: 1.2rem;
+  }
+
+  .commentContent {
+    font-size: 1.2rem;
+  }
+
+  #meals-container {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    font-size: 1.4rem;
+    padding: 0 7rem;
+  }
+
+  .menunav li:nth-of-type(2) {
+    display: none;
+  }
+
+  .menunav li:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popUpCard {
+    width: 90%;
+  }
+} */
